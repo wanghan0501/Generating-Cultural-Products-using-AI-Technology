@@ -29,16 +29,14 @@
 \usepackage{makecell}
 \usepackage{lipsum}
 \usepackage{texnames}
-
+\usepackage[square,numbers,sectionbib]{natbib}
+\usepackage{chapterbib}
 
 \begin{document}
 \maketitle
 \tableofcontents
 \mainmatter
 \include{chapter/style_transfer}
-
-\bibliographystyle{ieeetr}
-\bibliography{reference}
-\addcontentsline{toc}{chapter}{参考文献}
+\include{chapter/generative_adversarial_network}
 
 \end{document}
