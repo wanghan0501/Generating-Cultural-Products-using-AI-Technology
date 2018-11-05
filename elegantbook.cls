@@ -104,8 +104,9 @@
 %% 常用宏包
 \RequirePackage{graphicx}
 \RequirePackage{enumerate}
-\RequirePackage{amsmath,mathrsfs,amsfonts}
+\RequirePackage{amsmath,amssymb,mathrsfs,amsfonts}
 \RequirePackage{booktabs}
+
 \linespread{1.3}
 
 \graphicspath{{./figure/}{./figures/}{./image/}{./images/}{./graphics/}{./graphic/}{./pictures/}{./picture/}}
